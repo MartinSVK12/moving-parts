@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "movingparts",
+  "version": "${version}",
+
+  "name": "Moving Parts",
+  "description": "Blocks in motion.",
+  "authors": [
+    "sunsetsatellite"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+	"icon": "icon.png",
+  "license": "MIT",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+			"sunsetsatellite.movingparts.MovingParts"
+    ],
+		"beforeGameStart": [
+			"sunsetsatellite.movingparts.MovingParts"
+		],
+		"afterGameStart": [
+			"sunsetsatellite.movingparts.MovingParts"
+		],
+		"recipesReady": [
+			"sunsetsatellite.movingparts.MovingParts"
+		]
+	},
+  "mixins": [
+      "movingparts.mixins.json"
+  ],
+
+  "depends": {
+		"minecraft": "~7.1-beta.1",
+    "fabricloader": ">=0.15.6-babric.4-bta",
+		"halplibe": ">=3.4.10"
+  },
+  "suggests": {
+  }
+}
