@@ -1,0 +1,4 @@
+tile.movingparts.motor.name=Motor
+tile.movingparts.motor.desc=Moves frames around.
+tile.movingparts.frame.name=Frame
+tile.movingparts.frame.desc=Gets moved around by motors.

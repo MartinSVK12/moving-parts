@@ -1,13 +1,16 @@
 {
-    "required": true,
-    "minVersion": "0.8",
-    "package": "turniplabs.movingparts.mixin",
-    "compatibilityLevel": "JAVA_8",
-    "mixins": [
-    ],
-    "client": [
-    ],
-    "injectors": {
-        "defaultRequire": 1
+  "required": true,
+  "minVersion": "0.8",
+  "package": "sunsetsatellite.movingparts.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "ChunkSectionMixin",
+    "RenderGlobalMixin",
+    "WorldMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
   }
 }
